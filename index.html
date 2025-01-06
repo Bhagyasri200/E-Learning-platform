@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#quizzes">Quizzes</a></li>
+            <li><a href="#tracker">Progress Tracker</a></li>
+        </ul>
+    </nav>
+<header id="home">
+    <div class="content">
+       <h1>Welcome to Innovative Learning</h1>
+       <div class="line"></div>
+       <h2>Discover a world of knowledge with our diverse courses in AI, web development, and more. Enhance your skills with our interactive tools and track your progress effortlessly.</h2>
+       <a href="#"><button class="bttn">Learn More</button></a>
+    </div>
+</header>
+<section id="courses">
+    <h1>OUR POPULAR COURSES</h1>
+    <div class="image-preview">
+        <img src="images/course1.jpg" height="200" width="400">
+        <h3>Hyper Text Markup Language</h3>
+        <button onclick="window.open('https://www.youtube.com/watch?v=pQN-pnXPaVg')">Learn HTML</button>
+    </div>
+
+    <div class="image-preview">
+       
+        <img src="images/CSSTutorial.png" height="200" width="400">
+        <h3>Cascading Style Sheets</h3>
+        <button onclick="window.open('https://www.youtube.com/watch?v=yfoY53QXEnI')">Learn CSS</button>
+    </div>
+   <div class="image-preview">
+       
+        <img src="images/javascriptTutorial.png" height="200" width="400">
+        <h3>JavaScript</h3>
+        <button onclick="window.open('https://www.youtube.com/watch?v=W6NZfCO5SIk')">Learn JavaScript </button>
+
+    </div>
+    <div class="image-preview">
+       
+        <img src="images/pythonTutorial.png" height="200" width="400">
+        <h3>PYTHON</h3>
+        <button onclick="window.open('https://www.youtube.com/watch?v=rfscVS0vtbw')">Learn Python</button>
+
+    </div>
+    <div class="image-preview">
+       
+        <img  src="images/javaTutorial.png" height="200" width="400">
+        <h3>JAVA</h3>
+        <button onclick="window.open('https://www.youtube.com/watch?v=eIrMbAQSU34')">Learn Java</button>
+    </div>
+
+    </div>
+    <div class="image-preview">
+        
+        <img src="images/C++Tutorial.png" height="200" width="400">
+        <h3>C++</h3>
+        <button onclick="window.open('https://www.youtube.com/watch?v=Yq8UskxJ7wU')">learn C++</button>
+    </div>
+</section>
+<section id="quizzes">
+    <h1>Check Your Knowledge By Taking Quiz</h1>
+    <div class="container">
+        <div class="question">
+            <p><b>Question1:</b> Who is the father of HTML?</p>
+        </div>
+        <div class="options">
+            <div class="option">
+                <input type="radio" name="html" value="Rasmus Lerdorf"> Rasmus Lerdorf
+            </div>
+            <div class="option">
+                <input type="radio" name="html" value="Tim Berners-Lee"> Tim Berners-Lee
+            </div>
+            <div class="option">
+                <input type="radio" name="html" value="Brendan Eich"> Brendan Eich
+            </div>
+            <div class="option">
+                <input type="radio" name="html" value="Sergey Brin"> Sergey Brin
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="question">
+            <p><b>Question2:</b>Who developed Python Programming Language?</p>
+        </div>
+        <div class="options">
+            <div class="option">
+                <input type="radio" name="python" value="Wick van Rossum">Wick van Rossum
+            </div>
+            <div class="option">
+                <input type="radio" name="python" value="Rasmus Lerdorf">Rasmus Lerdorf
+            </div>
+            <div class="option">
+                <input type="radio" name="python" value="Guido van Rossum">Guido van Rossum
+            </div>
+            <div class="option">
+                <input type="radio" name="python" value="Niene Stom">Niene Stom
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="question">
+            <p><b>Question3:</b>Which one of the following is not a Java feature?</p>
+        </div>
+        <div class="options">
+            <div class="option">
+                <input type="radio" name="java" value="Object-oriented">Object-oriented
+            </div>
+            <div class="option">
+                <input type="radio" name="java" value="Use of pointers">Use of pointers
+            </div>
+            <div class="option">
+                <input type="radio" name="java" value="Portable">Portable
+            </div>
+            <div class="option">
+                <input type="radio" name="java" value="Dynamic and Extensible">Dynamic and Extensible
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="question">
+            <p><b>Question3:</b> Who is the inventor of Artificial Intelligence?</p>
+        </div>
+        <div class="options">
+            <div class="option">
+                <input type="radio" name="ai" value="Geoffrey Hinton">Geoffrey Hinton
+            </div>
+            <div class="option">
+                <input type="radio" name="ai" value="Andrew Ng">Andrew Ng
+            </div>
+            <div class="option">
+                <input type="radio" name="ai" value="John McCarthy">John McCarthy
+            </div>
+            <div class="option">
+                <input type="radio" name="ai" value=" Jurgen Schmidhuber">Jurgen Schmidhuber
+            </div>
+        </div>
+        <div class="ctn">
+            <button onclick="submitQuiz()">Submit Quiz</button>
+            </div>
+    </div>
+  
+<section id="tracker">
+</div class="prog">
+  <div class="containers">
+    <h1>Course Completion Tracker</h1>
+    <div class="courses">
+      <div class="course">
+        <label>
+          <input type="checkbox" id="html" class="course-checkbox">
+          HTML
+        </label>
+        <input type="number"  id="html-quizzes" class="quiz-input" min="0" max="10" placeholder="Quizzes Attempted">
+      </div>
+      <div class="progress-bar">
+        <div class="progress" id="progress-html"></div>
+    </div>
+    <div class="course">
+        <label>
+          <input type="checkbox" id="css" class="course-checkbox">
+          CSS
+        </label>
+        <input type="number" id="css-quizzes" class="quiz-input" min="0" max="10" placeholder="Quizzes Attempted">
+      </div>
+      <div class="progress-bar">
+        <div class="progress" id="progress-css"></div>
+    </div>
+      <div class="course">
+        <label>
+          <input type="checkbox" id="javascript" class="course-checkbox">
+          JavaScript
+        </label>
+        <input type="number" id="javascript-quizzes" class="quiz-input" min="0" max="10" placeholder="Quizzes Attempted">
+      </div>
+      <div class="progress-bar">
+        <div class="progress" id="progress-js"></div>
+    </div>
+      <div class="course">
+        <label>
+          <input type="checkbox" id="python" class="course-checkbox">
+          Python
+        </label>
+        <input type="number" id="python-quizzes" class="quiz-input" min="0" max="10" placeholder="Quizzes Attempted">
+      </div>
+      <div class="progress-bar">
+        <div class="progress" id="progress-python"></div>
+    </div>
+      <div class="course">
+        <label>
+          <input type="checkbox" id="java" class="course-checkbox">
+          Java
+        </label>
+        <input type="number" id="java-quizzes" class="quiz-input" min="0" max="10" placeholder="Quizzes Attempted">
+      </div>
+      <div class="progress-bar">
+        <div class="progress" id="progress-java"></div>
+    </div>
+      <div class="course">
+        <label>
+          <input type="checkbox" id="cplusplus" class="course-checkbox">
+          C++
+        </label>
+        <input type="number" id="cplusplus-quizzes" class="quiz-input" min="0" max="10" placeholder="Quizzes Attempted">
+      </div>
+      <div class="progress-bar">
+        <div class="progress" id="progress-cpp"></div>
+    </div>
+    <button id="submit-btn">Submit</button>
+    <p id="result-message"></p>
+  </div>
+  <script src="script.js"></script>
+
+</div>
+</section>
+<script src="script.js"></script> 
+</body>
+</html>
